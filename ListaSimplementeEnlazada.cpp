@@ -18,18 +18,22 @@ public:
     }
 
 
-    void insertarAlInicio(int dato) {
+    void insertar(int dato) {
         
     }
 
  
-    void mostrarLista() {
+    void imprimir() {
         
     }
 
+    // volverNuloPorValor es su nombre anterior
+    void eliminar(int valor){
 
-    void volverNuloPorValor(int valor){
+    }
 
+    int obtener(int valor){
+        return 0;
     }
 
 };
