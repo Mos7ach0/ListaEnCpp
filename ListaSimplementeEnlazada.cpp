@@ -13,16 +13,17 @@ private:
     Nodo* inicio;
 
 public:
+    // Sabado 15 de julio
     ListaEnlazada() {
         
     }
 
-
+    // Sabado 15 de julio
     void insertar(int dato) {
         
     }
 
- 
+    // Sabado 15 de julio 
     void imprimir() {
         
     }
