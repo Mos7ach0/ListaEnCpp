@@ -64,4 +64,19 @@ public:
 };
 
 int main() {
+    ListaEnlazada lista;
+
+    lista.insertar(3);
+    lista.insertar(1);
+    lista.insertar(7);
+    lista.insertar(9);
+
+    lista.imprimir();
+
+    lista.eliminar(7);
+    lista.eliminar(9);
+
+    lista.imprimir();
+
+
 }
