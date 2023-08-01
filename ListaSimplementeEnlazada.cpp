@@ -58,7 +58,14 @@ public:
     }
 
     int obtener(int valor){
-        return 0;
+        Nodo* temp = inicio;
+
+        while (temp != nullptr) {
+            if (temp->dato == valor) {
+                return temp->dato;
+            }
+            temp = temp->siguiente;
+        }
     }
     //Modificacion de prueba
 };
@@ -70,6 +77,8 @@ int main() {
     lista.insertar(1);
     lista.insertar(7);
     lista.insertar(9);
+
+    lista.obtener(2);
 
     lista.imprimir();
 
